@@ -4,4 +4,13 @@ text = """
 """
 
 # TODO
+text = text.replace(".","")
+text = (text.replace(",",""))
 
+split_text = text.split()
+text = (split_text)
+text2 = list(map(len,(text)))
+text2 = list(map(str, text2))
+# mapはそれぞれにって読みます
+text3 = "".join(text2)
+print(text3)
