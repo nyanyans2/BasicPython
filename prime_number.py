@@ -3,19 +3,27 @@ b = 10
 
 # TODO
 
+prime_a = True
 
 for i in range(2,a):
     if a % i == 0:
-        print("aは素数ではありません")
+        prime_a = False
         break
-    else:
+    
+if prime_a:
         print("aは素数です")
+else:
+        print("aは素数ではありません")
+
+prime_b = True
 
 for i in range(2,b):
     if b % i == 0:
-        print("bは素数ではありません")
+        prime_b = False
         break
-    else:
+    
+if prime_b:
         print("bは素数です")
-
+else:
+        print("bは素数ではありません")
     

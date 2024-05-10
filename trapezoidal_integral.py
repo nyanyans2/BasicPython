@@ -1,4 +1,5 @@
 from math import sin
+from math import pi
 # --example--
 # print(sin(0))
 # >>> 0
@@ -6,14 +7,14 @@ from math import sin
 
 
 a= 0
-b= 1
+b= pi/2
 N= 100
 
 h = ( b - a ) / N
 
 daikei_s = 0
 
-for k in range(1, N):
+for k in range(1, N+1):
     x_l = a+(k-1)*h
     x_r = a+k*h
     y_l = sin(x_l)
