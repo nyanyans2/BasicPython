@@ -27,7 +27,7 @@ else:
     prime_b = True
 
     for i in range(2,b):
-            if a % i == 0:
+            if b % i == 0:
                 prime_b = False
             break
     
